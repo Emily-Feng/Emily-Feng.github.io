@@ -10274,8 +10274,17 @@ body {
 }
 
 .about-section {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 80rem;
+  padding: 15rem 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
   padding-top: 10rem;
-  background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 5%, rgba(0, 0, 0, 0.8) 30%), url("../assets/img/about_placeholder.png");
 }
 .about-section p {
   margin-bottom: 5rem;
